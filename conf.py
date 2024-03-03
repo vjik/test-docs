@@ -12,6 +12,7 @@ version = '0.1.0'
 # -- General configuration
 
 include_patterns = 'source/**'
+root_doc = 'index.md'
 
 extensions = [
     'sphinx.ext.duration',
