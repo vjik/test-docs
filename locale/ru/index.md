@@ -1,4 +1,4 @@
-# Test Header
+# Тестовый заголовок
 
 ```php
 final class Engine
@@ -16,7 +16,7 @@ final class Car
     ) {}
 }
 
-// nested array
+// вложенный массив
 $object = $hydrator->create(Car::class, [
     'name' => 'Ferrari',
     'engine' => [
@@ -24,7 +24,7 @@ $object = $hydrator->create(Car::class, [
     ]
 ]);
 
-// or dot-notation
+// или dot-нотация
 $object = $hydrator->create(Car::class, [
     'name' => 'Ferrari',
     'engine.name' => 'V8',
