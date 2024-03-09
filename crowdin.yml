@@ -2,4 +2,4 @@ files:
   - source: /source/*
     ignore:
       - /source/conf.py
-    translation: /locale/%two_letters_code%/%original_file_name%
+    translation: /locale/%two_letters_code%/source/%original_file_name%
