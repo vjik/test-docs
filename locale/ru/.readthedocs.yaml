@@ -7,7 +7,7 @@ build:
 
 python:
   install:
-    - requirements: locale/ru/requirements.txt
+    - requirements: requirements.txt
 
 sphinx:
   configuration: locale/ru/source/conf.py
